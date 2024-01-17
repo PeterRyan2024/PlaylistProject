@@ -8,6 +8,7 @@ public class Song {
     private String title;
     private String artist;
     private double length;
+    private int ifLiked;
 
 
 
