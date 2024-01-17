@@ -51,4 +51,12 @@ public class Song {
         return ifLiked;
       }
 
+      public void like(){
+        ifLiked = true;
+      }
+
+      public void unlike(){
+        ifLiked = false;
+      }
+
 }
