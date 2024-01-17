@@ -59,4 +59,8 @@ public class Song {
         ifLiked = false;
       }
 
+      public String toString(){
+        return "\"" + title + "\"" + "by " + artist + "(" + length / 60 + ":" + length % 60 + ")";
+      }
+
 }
