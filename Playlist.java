@@ -40,4 +40,19 @@ public class Playlist {
         choices.add(a);
       }
 
+      public void likeLike(Song b){
+        b.like();
+      }
+
+      public void removeFromPlaylist(Song c){
+        choices.remove(c);
+      }
+
+      public String toString(){
+        return "Songs: " + choices.toString();
+      }
+
+      public ArrayList<Song> getLikedSongs(){
+        
+      }
 }
