@@ -63,6 +63,15 @@ public class Playlist {
           return likedSongs;
       }
 
+      public String totalDuration(){
+        int time = 0;
+        for(int i = 0; i < choices.size(); i++){
+           time += choices.get(i).getLength();
+        }
+        return (time/60) + ":" + (time%60);
+      }
+
+
       public void removeUnlikedSongs(){
         for (int i = 0; i < choices.size(); i++) {
           if(choices.get(i).getIfLiked() == false){
