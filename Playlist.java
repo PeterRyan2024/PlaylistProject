@@ -40,10 +40,6 @@ public class Playlist {
         choices.add(a);
       }
 
-      public void likeLike(Song b){
-        b.like();
-      }
-
       public void removeFromPlaylist(Song c){
         choices.remove(c);
       }
@@ -52,12 +48,8 @@ public class Playlist {
         return "Songs: " + choices.toString();
       }
 
-      public ArrayList<Song> getLikedSongs(){
-        
-      }
 
-
-      public void likeSong(int a){
+      public void likeLike(int a){
         choices.get(a).like();
       }
 }
