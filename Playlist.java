@@ -52,11 +52,16 @@ public class Playlist {
         return "Songs: " + choices.toString();
       }
 
-      public ArrayList<Song> getLikedSongs(Song c){
+      
+      public ArrayList<Song> getLikedSongs(){
+        ArrayList<Song> likedSongs = new ArrayList<Song>();
         for (int i = 0; i < choices.size(); i++) {
-          if(c.getIfLiked() == true){
-          return choices;
+          if(choices.get(i).getIfLiked() == true){
+          likedSongs.add(choices.get(i));
           }
         }
+          return likedSongs;
+          
+        
       }
 }
