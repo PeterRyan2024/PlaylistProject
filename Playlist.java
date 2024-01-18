@@ -61,7 +61,14 @@ public class Playlist {
           }
         }
           return likedSongs;
-          
-        
+      }
+
+      public void removeUnlikedSongs(){
+        for (int i = 0; i < choices.size(); i++) {
+          if(choices.get(i).getIfLiked() == false){
+          choices.remove(i);
+          i--;
+          }
+        }   
       }
 }
