@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /**
  * Sample of a tester file for the Playlist class. This file should demonstrate all the capability of your
  * playlist in the main method. You don't need to follow the testing specifications of this exactly
@@ -10,6 +12,14 @@ public class PlaylistTester {
     public static void main(String[] args) {
         System.out.println("Initializing a Playlist...\n");
         //Make your playlist here
+
+       Song centuries = new Song("Centuries", "Fall Out Boys", 228, false);
+       Song burntRice = new Song("Burnt Rice", "Shawn Wasabi", 121, false);
+       Song countingStars = new Song("Counting Stars", "OneRepublic", 258 , false);
+       Song vivaLaVida = new Song("Viva La Vida", "Coldplay", 242, false);
+       Song pokerFace = new Song("Poker Face", "Lady Gaga", 237, false);
+       Song dieYoung = new Song("Die Young", "Kesha", 212, false);
+       Song mrBlueSky = new Song("Mr. Blue Sky", "Electric Light Orchestra", 303, false);
 
         System.out.println("Adding songs to the Playlist...\n");
         /**
