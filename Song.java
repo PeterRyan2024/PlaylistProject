@@ -7,7 +7,7 @@ public class Song {
     //Fields-- what information do we want each Song to store?
     private String title;
     private String artist;
-    private double length;
+    private int length;
     private boolean ifLiked;
 
 
@@ -16,7 +16,7 @@ public class Song {
      * Constructor-- what information needs to be given to make a Song?
      * How will you handle 'liked' songs? It makes sense for a Song not be 'liked' by default
      */
-    public Song(String myTitle, String myArtist, double myLength, boolean myIfLiked){
+    public Song(String myTitle, String myArtist, int myLength, boolean myIfLiked){
         title = myTitle;
         artist = myArtist;
         length = myLength;
