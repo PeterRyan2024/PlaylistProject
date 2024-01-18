@@ -55,4 +55,9 @@ public class Playlist {
       public ArrayList<Song> getLikedSongs(){
         
       }
+
+
+      public void likeSong(int a){
+        choices.get(a).like();
+      }
 }
