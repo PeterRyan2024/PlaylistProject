@@ -60,7 +60,7 @@ public class Song {
       }
 
       public String toString(){
-        return "\"" + title + "\"" + "by " + artist + "(" + length / 60 + ":" + length % 60 + ")";
+        return "\"" + title + "\" " + "by " + artist + " (" + length / 60 + ":" + length % 60 + ")";
       }
 
 }
