@@ -15,7 +15,7 @@ public class PlaylistTester {
 
        Playlist greatSongs = new Playlist();
        Song centuries = new Song("Centuries", "Fall Out Boys", 228, false);
-       Song burntRice = new Song("Burnt Rice", "Shawn Wasabi", 120, false);
+       Song burntRice = new Song("Burnt Rice", "Shawn Wasabi", 131, false);
        Song countingStars = new Song("Counting Stars", "OneRepublic", 258 , false);
        Song vivaLaVida = new Song("Viva La Vida", "Coldplay", 242, false);
        Song pokerFace = new Song("Poker Face", "Lady Gaga", 237, false);

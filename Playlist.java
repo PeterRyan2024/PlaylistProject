@@ -68,7 +68,7 @@ public class Playlist {
         for(int i = 0; i < choices.size(); i++){
            time += choices.get(i).getLength();
         }
-        return (time/60) + ":" + (time%60);
+        return (time / 60) + ":" + (time % 60);
       }
 
 
@@ -80,4 +80,5 @@ public class Playlist {
           }
         }   
       }
+      
 }
